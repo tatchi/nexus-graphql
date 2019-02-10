@@ -1,0 +1,20 @@
+{
+  "name": "nexus-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node-dev --no-notify --transpileOnly --respawn src/index.ts"
+  },
+  "dependencies": {
+    "apollo": "^2.4.4",
+    "apollo-server": "^2.4.0",
+    "nexus": "^0.9.9"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.3.0",
+    "prettier": "^1.16.4",
+    "ts-node-dev": "^1.0.0-pre.32",
+    "typescript": "^3.3.3"
+  }
+}
